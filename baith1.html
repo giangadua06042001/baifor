@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xay dung lop date</title>
+</head>
+<body>
+<script>
+    let myDate = function date(day, month, year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+        this.getDay = function () {
+            return this.day = day;
+        }
+        this.getMonth = function () {
+            return this.month = month;
+        }
+        this.getYear = function () {
+            return this.year = year;
+        }
+        this.setDay = function (day) {
+            this.day = day;
+        }
+        this.setMonth = function (month) {
+            this.month = nonth;
+        }
+        this.setYear = function (year) {
+            this.year = year
+        }
+
+
+    };
+    let date = new myDate(2, 2, 2007)
+    let day = date.getDay();
+    let month = date.getMonth();
+    let year = date.getYear();
+    alert(day + "/" + month + "/" + year);
+    date.setDay(9);
+    date.setMonth(3);
+    date.getYear(2023);
+    let day = date.getDay();
+    let month = date.getMonth();
+    let year = date.getYear();
+    alert(day + '/' + month + "/" + year)
+
+</script>
+
+</body>
+</html>
